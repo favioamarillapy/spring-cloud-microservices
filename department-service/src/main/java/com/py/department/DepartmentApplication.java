@@ -6,8 +6,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
-import py.com.department.model.Department;
-import py.com.department.repository.DepartmentRepository;
+import com.py.department.model.Department;
+import com.py.department.repository.DepartmentRepository;
 
 @SpringBootApplication
 @EnableFeignClients

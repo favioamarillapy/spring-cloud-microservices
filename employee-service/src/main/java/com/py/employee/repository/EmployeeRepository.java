@@ -1,11 +1,11 @@
-package py.com.employee.repository;
+package com.py.employee.repository;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import py.com.employee.model.Employee;
+import com.py.employee.model.Employee;
 
 public class EmployeeRepository {
 

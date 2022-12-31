@@ -1,4 +1,4 @@
-package py.com.employee.model;
+package com.py.employee.model;
 
 public class Employee {
 

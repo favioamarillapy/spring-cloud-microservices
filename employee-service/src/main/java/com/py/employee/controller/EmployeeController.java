@@ -1,4 +1,4 @@
-package py.com.employee.controller;
+package com.py.employee.controller;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import py.com.employee.model.Employee;
-import py.com.employee.repository.EmployeeRepository;
+import com.py.employee.model.Employee;
+import com.py.employee.repository.EmployeeRepository;
 
 @RestController
 public class EmployeeController {

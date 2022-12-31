@@ -1,6 +1,6 @@
-package py.com.department.repository;
+package com.py.department.repository;
 
-import py.com.department.model.Department;
+import com.py.department.model.Department;
 
 import java.util.ArrayList;
 import java.util.List;

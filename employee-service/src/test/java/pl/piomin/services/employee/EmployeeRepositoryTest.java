@@ -1,12 +1,12 @@
-package py.com.employee;
+package com.py.employee;
 
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 import org.springframework.util.Assert;
-import py.com.employee.model.Employee;
-import py.com.employee.repository.EmployeeRepository;
+import com.py.employee.model.Employee;
+import com.py.employee.repository.EmployeeRepository;
 
 import java.util.List;
 

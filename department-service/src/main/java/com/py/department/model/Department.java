@@ -1,4 +1,4 @@
-package py.com.department.model;
+package com.py.department.model;
 
 import java.util.ArrayList;
 import java.util.List;

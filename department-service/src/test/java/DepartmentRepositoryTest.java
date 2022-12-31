@@ -3,8 +3,8 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 import org.springframework.util.Assert;
-import py.com.department.model.Department;
-import py.com.department.repository.DepartmentRepository;
+import com.py.department.model.Department;
+import com.py.department.repository.DepartmentRepository;
 
 import java.util.List;
 

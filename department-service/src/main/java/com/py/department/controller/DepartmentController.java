@@ -1,11 +1,11 @@
-package py.com.department.controller;
+package com.py.department.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
-import py.com.department.client.EmployeeClient;
-import py.com.department.model.Department;
-import py.com.department.repository.DepartmentRepository;
+import com.py.department.client.EmployeeClient;
+import com.py.department.model.Department;
+import com.py.department.repository.DepartmentRepository;
 
 import java.util.List;
 

@@ -5,8 +5,8 @@ import io.swagger.v3.oas.annotations.info.Info;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import py.com.employee.model.Employee;
-import py.com.employee.repository.EmployeeRepository;
+import com.py.employee.model.Employee;
+import com.py.employee.repository.EmployeeRepository;
 
 @SpringBootApplication
 @OpenAPIDefinition(info =
