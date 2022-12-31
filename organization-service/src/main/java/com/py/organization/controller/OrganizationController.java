@@ -1,4 +1,4 @@
-package com.py.services.organization.controller;
+package com.py.organization.controller;
 
 import java.util.List;
 
@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.py.services.organization.client.DepartmentClient;
-import com.py.services.organization.client.EmployeeClient;
-import com.py.services.organization.model.Organization;
-import com.py.services.organization.repository.OrganizationRepository;
+import com.py.organization.client.DepartmentClient;
+import com.py.organization.client.EmployeeClient;
+import com.py.organization.model.Organization;
+import com.py.organization.repository.OrganizationRepository;
 
 @RestController
 public class OrganizationController {

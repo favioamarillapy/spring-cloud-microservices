@@ -6,8 +6,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
-import com.py.services.organization.model.Organization;
-import com.py.services.organization.repository.OrganizationRepository;
+import com.py.organization.model.Organization;
+import com.py.organization.repository.OrganizationRepository;
 
 @SpringBootApplication
 @EnableFeignClients

@@ -3,8 +3,8 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 import org.springframework.util.Assert;
-import com.py.services.organization.model.Organization;
-import com.py.services.organization.repository.OrganizationRepository;
+import com.py.organization.model.Organization;
+import com.py.organization.repository.OrganizationRepository;
 
 import java.util.List;
 

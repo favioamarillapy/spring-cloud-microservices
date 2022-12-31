@@ -1,6 +1,6 @@
-package com.py.services.organization.repository;
+package com.py.organization.repository;
 
-import com.py.services.organization.model.Organization;
+import com.py.organization.model.Organization;
 
 import java.util.ArrayList;
 import java.util.List;

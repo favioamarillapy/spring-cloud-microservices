@@ -1,4 +1,4 @@
-package com.py.services.organization.model;
+package com.py.organization.model;
 
 import java.util.ArrayList;
 import java.util.List;

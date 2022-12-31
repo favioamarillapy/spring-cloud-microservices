@@ -1,4 +1,4 @@
-package com.py.services.organization.client;
+package com.py.organization.client;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import com.py.services.organization.model.Employee;
+import com.py.organization.model.Employee;
 
 @FeignClient(name = "employee-service")
 public interface EmployeeClient {
