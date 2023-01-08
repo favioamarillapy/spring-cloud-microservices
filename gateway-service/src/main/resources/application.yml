@@ -16,16 +16,16 @@ spring:
   security:
     oauth2:
       client:
+        registration:
+          keycloak-spring-gateway-client:
+            provider: my-keycloak-provider
+            client-id: spring-cloud-microservices-client
+            client-secret: c64645b5-ac33-4bd2-a017-89bd1b5986c1
+            authorization-grant-type: authorization_code
+            redirect-uri: '{baseUrl}/login/oauth2/code/keycloak'
         provider:
           my-keycloak-provider:
             issuer-uri: http://localhost:9090/auth/realms/spring-cloud-microservices
-          registration:
-            keycloak-spring-gateway-client:
-              provider: my-keycloak-provider
-              client-id: spring-cloud-microservices-client
-              client-secret: c64645b5-ac33-4bd2-a017-89bd1b5986c1
-              authorization-grant-type: authorization_code
-              redirect-uri: '{baseUrl}/login/oauth2/code/keycloak'
   cloud:
     gateway:
       discovery:
